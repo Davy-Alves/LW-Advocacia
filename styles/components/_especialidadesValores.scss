@@ -1,0 +1,66 @@
+@use '../abstract/variaveis';
+@use '../abstract/mixins.scss';
+
+
+%titulo {
+    @include mixins.ff-fs-cl(variaveis.$ft-principal, 0.875rem, variaveis.$cor-principal);
+    font-weight: 600;
+    padding-bottom: 0.1rem;
+}
+
+%texto {
+    @include mixins.ff-fs-cl(variaveis.$ft-principal, 0.43rem, variaveis.$cor-principal);
+    padding: 0.25rem 0rem;
+}
+
+%strong {
+    font-weight: 600;
+    font-size: 0.47rem;
+}
+
+.especialidadesValores {
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .especialidadesValores__container {
+        display: flex;
+        gap: 1rem;
+
+        #especialidades {
+            h3 {
+                @extend %titulo;
+            }
+
+            p {
+                @extend %texto;
+            }
+
+            strong {
+                @extend %strong;
+            }
+        }
+
+        #valores {
+            h3 {
+                @extend %titulo;
+                color: variaveis.$cor-secudaria;
+            }
+
+            p {
+                @extend %texto;
+            }
+
+            strong {
+                @extend %strong;
+                color: variaveis.$cor-secudaria;
+            }
+        }
+    }
+
+    a {
+        @include mixins.create-button(variaveis.$ft-principal, 0.43rem, variaveis.$cor-terciaria, variaveis.$cor-principal);
+        margin-top: 0.3rem;
+    }
+}

@@ -1,0 +1,52 @@
+@use '../abstract/variaveis';
+@use '../abstract/mixins';
+
+.advogados {
+    padding: 0rem 1rem 1rem;
+    text-align: center;
+
+    h2 {
+        @include mixins.ff-fs-cl(variaveis.$ft-principal, 0.875rem, variaveis.$cor-principal);
+        font-weight: 600;
+        margin-bottom: 0.75rem;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+
+        .advogados__container {
+            text-align: center;
+
+            div {
+                position: relative;
+                display: inline-block;
+
+                img {
+                    @include mixins.img-size(5.56rem, 6.66rem);
+                    display: block;
+                }
+
+                h5 {
+                    @include mixins.ff-fs-cl(variaveis.$ft-principal, 0.27rem, variaveis.$cor-branco);
+                    position: absolute;
+                    top: 95%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    text-align: center;
+                }
+            }
+
+            p {
+                @include mixins.ff-fs-cl(variaveis.$ft-principal, 0.20rem, variaveis.$cor-branco);
+                padding: 0.1rem 0rem;
+
+            }
+
+            a {
+                @include mixins.create-button(variaveis.$ft-principal, 0.33rem, variaveis.$cor-branco, variaveis.$cor-header);
+                border: solid 1px variaveis.$cor-secudaria;
+            }
+        }
+    }
+}

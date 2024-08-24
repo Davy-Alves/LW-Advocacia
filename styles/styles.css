@@ -62,19 +62,23 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 1rem;
+  padding: 0.5rem 1rem;
 }
 header #logo-header {
-  width: 10.12rem;
-  height: 3.43rem;
+  width: 6.58rem;
+  height: 2.22rem;
 }
 header div {
   display: flex;
   gap: 1.25rem;
 }
+header div img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
 
 .apresentacao {
-  padding: 1.5rem 1rem;
+  padding: 1rem 1rem 1.5rem;
   align-items: center;
   display: flex;
 }
@@ -98,15 +102,158 @@ header div {
 }
 .apresentacao .apresentacao__esquerda div a {
   text-decoration: none;
+  padding: 0.25rem 1rem;
+  border-radius: 2.77px;
+  font-weight: 800;
   font-family: "Inter", sans-serif;
   font-size: 0.43rem;
   color: #252422;
   background-color: #FFFCF2;
-  padding: 0.25rem 1rem;
-  border-radius: 2.77px;
-  font-weight: 800;
 }
 .apresentacao img {
   width: 165px;
   height: 161px;
+}
+
+.about {
+  display: flex;
+  padding: 0 1rem;
+  gap: 2.1rem;
+  align-items: center;
+}
+.about img {
+  width: 8.47rem;
+  height: 7.1rem;
+}
+.about #about__conteudo {
+  text-align: center;
+}
+.about #about__conteudo h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 0.875rem;
+  color: #EB5E28;
+  font-weight: 600;
+}
+.about #about__conteudo p {
+  font-family: "Inter", sans-serif;
+  font-size: 0.43rem;
+  color: #FFFCF2;
+  padding: 0.3rem 0;
+}
+.about #about__conteudo strong {
+  color: #EB5E28;
+  font-weight: 500;
+}
+.about #about__conteudo a {
+  text-decoration: none;
+  padding: 0.25rem 1rem;
+  border-radius: 2.77px;
+  font-weight: 800;
+  font-family: "Inter", sans-serif;
+  font-size: 0.43rem;
+  color: #252422;
+  background-color: #FFFCF2;
+}
+
+.especialidadesValores .especialidadesValores__container #valores h3, .especialidadesValores .especialidadesValores__container #especialidades h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 0.875rem;
+  color: #FFFCF2;
+  font-weight: 600;
+  padding-bottom: 0.1rem;
+}
+
+.especialidadesValores .especialidadesValores__container #valores p, .especialidadesValores .especialidadesValores__container #especialidades p {
+  font-family: "Inter", sans-serif;
+  font-size: 0.43rem;
+  color: #FFFCF2;
+  padding: 0.25rem 0rem;
+}
+
+.especialidadesValores .especialidadesValores__container #valores strong, .especialidadesValores .especialidadesValores__container #especialidades strong {
+  font-weight: 600;
+  font-size: 0.47rem;
+}
+
+.especialidadesValores {
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.especialidadesValores .especialidadesValores__container {
+  display: flex;
+  gap: 1rem;
+}
+.especialidadesValores .especialidadesValores__container #valores h3 {
+  color: #EB5E28;
+}
+.especialidadesValores .especialidadesValores__container #valores strong {
+  color: #EB5E28;
+}
+.especialidadesValores a {
+  text-decoration: none;
+  padding: 0.25rem 1rem;
+  border-radius: 2.77px;
+  font-weight: 800;
+  font-family: "Inter", sans-serif;
+  font-size: 0.43rem;
+  color: #252422;
+  background-color: #FFFCF2;
+  margin-top: 0.3rem;
+}
+
+.advogados {
+  padding: 0rem 1rem 1rem;
+  text-align: center;
+}
+.advogados h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 0.875rem;
+  color: #FFFCF2;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+.advogados ul {
+  display: flex;
+  justify-content: space-around;
+}
+.advogados ul .advogados__container {
+  text-align: center;
+}
+.advogados ul .advogados__container div {
+  position: relative;
+  display: inline-block;
+}
+.advogados ul .advogados__container div img {
+  width: 5.56rem;
+  height: 6.66rem;
+  display: block;
+}
+.advogados ul .advogados__container div h5 {
+  font-family: "Inter", sans-serif;
+  font-size: 0.27rem;
+  color: white;
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.advogados ul .advogados__container p {
+  font-family: "Inter", sans-serif;
+  font-size: 0.2rem;
+  color: white;
+  padding: 0.1rem 0rem;
+}
+.advogados ul .advogados__container a {
+  text-decoration: none;
+  padding: 0.25rem 1rem;
+  border-radius: 2.77px;
+  font-weight: 800;
+  font-family: "Inter", sans-serif;
+  font-size: 0.33rem;
+  color: white;
+  background-color: #403D39;
+  border: solid 1px #EB5E28;
 }/*# sourceMappingURL=styles.css.map */

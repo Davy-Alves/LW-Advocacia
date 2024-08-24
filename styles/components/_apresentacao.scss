@@ -2,7 +2,7 @@
 @use '../abstract/mixins.scss';
 
 .apresentacao {
-    padding: 1.5rem 1rem;
+    padding: 1rem 1rem 1.5rem;
     align-items: center;
     display: flex;
 
@@ -21,18 +21,13 @@
                 @include mixins.ff-fs-cl(variaveis.$ft-principal, 0.4rem, variaveis.$cor-principal);
             }
             a {
-                text-decoration: none;
-                @include mixins.ff-fs-cl(variaveis.$ft-principal, 0.43rem, variaveis.$cor-terciaria);
-                background-color: variaveis.$cor-principal;
-                padding: 0.25rem 1rem;
-                border-radius: 2.77px;
-                font-weight: 800;
+                @include mixins.create-button(variaveis.$ft-principal, 0.43rem, variaveis.$cor-terciaria, variaveis.$cor-principal);
+
             }
         }
     }
 
     img {
-        width: 165px;
-        height: 161px;
+        @include mixins.img-size(165px, 161px);
     }
 }

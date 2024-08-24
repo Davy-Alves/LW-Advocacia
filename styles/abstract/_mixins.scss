@@ -1,0 +1,26 @@
+@mixin margem-central($width) {
+    margin: 0 auto;
+    width: $width;
+}
+
+@mixin ff-fs-cl($f-family, $f-size, $f-color) {
+    font-family: $f-family;
+    font-size: $f-size;
+    color: $f-color;
+}
+
+@mixin img-size($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+@mixin create-button($f-family, $f-size, $f-color, $f-background) {
+    text-decoration: none;
+    padding: 0.25rem 1rem;
+    border-radius: 2.77px;
+    font-weight: 800;
+    font-family: $f-family;
+    font-size: $f-size;
+    color: $f-color;
+    background-color: $f-background;
+}

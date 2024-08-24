@@ -1,0 +1,35 @@
+@use '../abstract/variaveis';
+@use '../abstract/mixins.scss';
+
+.about {
+    display: flex;
+    padding: 0 1rem;
+    gap: 2.1rem;
+    align-items: center;
+
+    img {
+        @include mixins.img-size(8.47rem, 7.1rem)
+    }
+
+    #about__conteudo {
+        text-align: center;
+        h2 {
+            @include mixins.ff-fs-cl(variaveis.$ft-principal, 0.875rem, variaveis.$cor-secudaria);
+            font-weight: 600;
+        }
+
+        p {
+            @include mixins.ff-fs-cl(variaveis.$ft-principal, 0.43rem, variaveis.$cor-principal);
+            padding: 0.3rem 0;
+        }
+
+        strong {
+            color: variaveis.$cor-secudaria;
+            font-weight: 500;
+        }
+
+        a {
+            @include mixins.create-button(variaveis.$ft-principal, 0.43rem, variaveis.$cor-terciaria, variaveis.$cor-principal);
+        }
+    }
+}

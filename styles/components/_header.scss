@@ -1,4 +1,5 @@
 @use '../abstract/variaveis';
+@use '../abstract/mixins.scss';
 
 
 header {
@@ -6,15 +7,17 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 1rem;
+    padding: 0.5rem 1rem;
 
     #logo-header {
-        width: 10.12rem;
-        height: 3.43rem;
+        @include mixins.img-size(6.58rem, 2.22rem);
     }
 
     div {
         display: flex;
         gap: 1.25rem;
+        img {
+            @include mixins.img-size(1.5rem, 1.5rem);
+        }
     }
 }
