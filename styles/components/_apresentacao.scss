@@ -1,0 +1,38 @@
+@use '../abstract/variaveis';
+@use '../abstract/mixins.scss';
+
+.apresentacao {
+    padding: 1.5rem 1rem;
+    align-items: center;
+    display: flex;
+
+    .apresentacao__esquerda {
+        h1 {
+            @include mixins.ff-fs-cl(variaveis.$ft-italiana, 0.92rem, variaveis.$cor-principal);
+        }
+
+        strong {
+            @include mixins.ff-fs-cl(variaveis.$ft-italiana, 0.96rem, variaveis.$cor-secudaria);
+        }
+
+        div {
+            margin-top: 0.62rem;
+            h4 {
+                @include mixins.ff-fs-cl(variaveis.$ft-principal, 0.4rem, variaveis.$cor-principal);
+            }
+            a {
+                text-decoration: none;
+                @include mixins.ff-fs-cl(variaveis.$ft-principal, 0.43rem, variaveis.$cor-terciaria);
+                background-color: variaveis.$cor-principal;
+                padding: 0.25rem 1rem;
+                border-radius: 2.77px;
+                font-weight: 800;
+            }
+        }
+    }
+
+    img {
+        width: 165px;
+        height: 161px;
+    }
+}
