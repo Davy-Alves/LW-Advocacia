@@ -4,6 +4,7 @@
 .feedbacks {
     text-align: center;
     padding: 1rem;
+
     h3 {
         @include mixins.ff-fs-cl(variaveis.$ft-principal, 0.875rem, variaveis.$cor-principal);
         font-weight: 600;
@@ -13,6 +14,7 @@
         @include mixins.ff-fs-cl(variaveis.$ft-principal, 0.5rem, variaveis.$cor-principal);
         padding-bottom: 0.7rem;
     }
+
     .swiper {
         width: 100%;
         max-width: 100vw;
@@ -20,10 +22,11 @@
 
         .swiper-wrapper {
             display: flex;
-        }
 
-        img {
-            @include mixins.img-size(7.08rem, 8.02rem);
+            img {
+                @include mixins.img-size(6.8rem, 8rem);
+                
+            }
         }
     }
 }

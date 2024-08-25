@@ -282,7 +282,7 @@ header div img {
 .feedbacks .swiper .swiper-wrapper {
   display: flex;
 }
-.feedbacks .swiper img {
-  width: 7.08rem;
-  height: 8.02rem;
+.feedbacks .swiper .swiper-wrapper img {
+  width: 6.8rem;
+  height: 8rem;
 }/*# sourceMappingURL=styles.css.map */
