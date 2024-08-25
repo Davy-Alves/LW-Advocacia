@@ -1,0 +1,62 @@
+@use '../abstract/variaveis';
+@use '../abstract/mixins';
+
+.formulario {
+    padding: 1rem;
+    text-align: center;
+
+    h2 {
+        @include mixins.ff-fs-cl(variaveis.$ft-italiana, 0.88rem, variaveis.$cor-principal);
+    }
+
+    strong {
+        @include mixins.ff-fs-cl(variaveis.$ft-italiana, 0.89rem, variaveis.$cor-secudaria);
+    }
+
+    p {
+        @include mixins.ff-fs-cl(variaveis.$ft-principal, 0.42rem, variaveis.$cor-principal);
+        margin-bottom: 0.3rem;
+    }
+
+    fieldset {
+        padding: 0rem 1.55rem;
+
+        div {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 5px;
+
+            input {
+                max-width: 129px;
+                min-height: 19px;
+                border-radius: 4.40px;
+                border: solid 1px variaveis.$cor-terciaria;
+                padding-left: 10px;
+                @include mixins.ff-fs-cl(variaveis.$ft-principal, 0.5rem, variaveis.$cor-header);
+            }
+        }
+    }
+
+    div {
+        margin-top: 0.4rem;
+
+        textarea {
+            min-width: 265px;
+            min-height: 97px;
+            border-radius: 4.40px;
+            border: solid 1px variaveis.$cor-terciaria;
+            padding-left: 10px;
+            @include mixins.ff-fs-cl(variaveis.$ft-principal, 0.5rem, variaveis.$cor-header);
+
+        }
+    }
+
+    button {
+        @include mixins.create-button(variaveis.$ft-principal, 0.73rem, variaveis.$cor-principal, variaveis.$cor-secudaria);
+        text-decoration: none;
+        margin-top: 0.4rem;
+        padding: 0.25rem 7.6rem;
+        border-radius: 4.40px;
+        font-weight: 400;
+    }
+}

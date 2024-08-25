@@ -285,4 +285,71 @@ header div img {
 .feedbacks .swiper .swiper-wrapper img {
   width: 6.8rem;
   height: 8rem;
+}
+
+.formulario {
+  padding: 1rem;
+  text-align: center;
+}
+.formulario h2 {
+  font-family: "Italiana", serif;
+  font-size: 0.88rem;
+  color: #FFFCF2;
+}
+.formulario strong {
+  font-family: "Italiana", serif;
+  font-size: 0.89rem;
+  color: #EB5E28;
+}
+.formulario p {
+  font-family: "Inter", sans-serif;
+  font-size: 0.42rem;
+  color: #FFFCF2;
+  margin-bottom: 0.3rem;
+}
+.formulario fieldset {
+  padding: 0rem 1.55rem;
+}
+.formulario fieldset div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+}
+.formulario fieldset div input {
+  max-width: 129px;
+  min-height: 19px;
+  border-radius: 4.4px;
+  border: solid 1px #252422;
+  padding-left: 10px;
+  font-family: "Inter", sans-serif;
+  font-size: 0.5rem;
+  color: #403D39;
+}
+.formulario div {
+  margin-top: 0.4rem;
+}
+.formulario div textarea {
+  min-width: 265px;
+  min-height: 97px;
+  border-radius: 4.4px;
+  border: solid 1px #252422;
+  padding-left: 10px;
+  font-family: "Inter", sans-serif;
+  font-size: 0.5rem;
+  color: #403D39;
+}
+.formulario button {
+  text-decoration: none;
+  padding: 0.25rem 1rem;
+  border-radius: 2.77px;
+  font-weight: 800;
+  font-family: "Inter", sans-serif;
+  font-size: 0.73rem;
+  color: #FFFCF2;
+  background-color: #EB5E28;
+  text-decoration: none;
+  margin-top: 0.4rem;
+  padding: 0.25rem 7.6rem;
+  border-radius: 4.4px;
+  font-weight: 400;
 }/*# sourceMappingURL=styles.css.map */
