@@ -1,7 +1,7 @@
 <h1>📜 LW Advocacia - Landing Page</h1>
 
 <h2>Descrição</h2>
-<p>⚖️ Este projeto é uma landing page para LW Advocacia, desenvolvida para praticar o uso de SCSS. A primeira versão foi um esboço inicial focado em dispositivos móveis. Na segunda versão, melhorias foram implementadas, incluindo a adição de novas seções e ajustes no layout.</p>
+<p>⚖️ Este projeto é uma landing page para LW Advocacia, desenvolvida para praticar o uso de SCSS. A primeira versão foi um esboço inicial focado em dispositivos móveis. As versões subsequentes trouxeram melhorias significativas e a adição de novas seções.</p>
 
 <h2>Funcionalidades</h2>
 
@@ -18,6 +18,11 @@
     <li><strong>📄 Seção About:</strong> Adição de uma seção "About" para descrever a advocacia.</li>
     <li><strong>⚖️ Seção Especialidades e Valores:</strong> Inclusão de uma seção detalhando as especialidades e os valores do escritório.</li>
     <li><strong>👨‍⚖️ Seção Advogados:</strong> Adição de uma seção apresentando os advogados do escritório.</li>
+</ul>
+
+<h3>Versão 3</h3>
+<ul>
+    <li><strong>🆕 Seção Feedback:</strong> Adição de uma nova seção de feedback, implementada como um carrossel para exibir depoimentos de forma dinâmica e interativa.</li>
 </ul>
 
 <h2>Instalação</h2>
