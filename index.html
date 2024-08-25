@@ -134,6 +134,50 @@
     </section>
 
 
+    <section class="feedbacks">
+        <h3 id="feedbacks__titulo">Feedbacks</h3>
+        <h5 id="feedbacks__subtitulo">Depoimentos de Nossos Clientes</h5>
+        <!-- Adicione a estrutura Swiper -->
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <!-- Itens do feedback transformados em slides -->
+                <div class="swiper-slide">
+                    <img src="/assets/feedback 1.png" alt="feedback 1">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/assets/feedback 2.png" alt="feedback 2">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/assets/feedback 3.png" alt="feedback 3">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/assets/feedback 4.png" alt="feedback 4">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/assets/feedback 5.png" alt="feedback 5">
+                </div>
+            </div>
+
+            <!-- Botões de navegação (opcional) -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <!-- Paginação (opcional) -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets'
+            },
+        });
+    </script>
 </body>
 
 </html>

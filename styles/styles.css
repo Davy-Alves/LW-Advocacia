@@ -256,4 +256,33 @@ header div img {
   color: white;
   background-color: #403D39;
   border: solid 1px #EB5E28;
+}
+
+.feedbacks {
+  text-align: center;
+  padding: 1rem;
+}
+.feedbacks h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 0.875rem;
+  color: #FFFCF2;
+  font-weight: 600;
+}
+.feedbacks h5 {
+  font-family: "Inter", sans-serif;
+  font-size: 0.5rem;
+  color: #FFFCF2;
+  padding-bottom: 0.7rem;
+}
+.feedbacks .swiper {
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+.feedbacks .swiper .swiper-wrapper {
+  display: flex;
+}
+.feedbacks .swiper img {
+  width: 7.08rem;
+  height: 8.02rem;
 }/*# sourceMappingURL=styles.css.map */
