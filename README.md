@@ -25,6 +25,11 @@
     <li><strong>🆕 Seção Feedback:</strong> Adição de uma nova seção de feedback, implementada como um carrossel para exibir depoimentos de forma dinâmica e interativa.</li>
 </ul>
 
+<h3>Versão 4</h3>
+<ul>
+    <li><strong>📝 Seção Formulários:</strong> Adição de uma seção com campos para preenchimento e um botão de enviar, permitindo aos usuários entrar em contato diretamente pela página.</li>
+</ul>
+
 <h2>Instalação</h2>
 <ol>
     <li>Clone o repositório:
