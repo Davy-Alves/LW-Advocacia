@@ -35,3 +35,9 @@
         }
     }
 }
+
+@media(min-width: 425px) {
+    .footer {
+        display: none;
+    }
+}

@@ -64,3 +64,9 @@
         margin-top: 0.3rem;
     }
 }
+
+@media(min-width: 425px) {
+    .especialidadesValores {
+        display: none;
+    }
+}

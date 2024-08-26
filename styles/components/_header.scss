@@ -21,3 +21,9 @@ header {
         }
     }
 }
+
+@media(min-width: 425px) {
+    header {
+        display: none;
+    }
+}

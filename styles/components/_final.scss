@@ -47,3 +47,9 @@
         max-width: 78.42px;
     }
 }
+
+@media(min-width: 425px) {
+    .final {
+        display: none;
+    }
+}

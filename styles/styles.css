@@ -57,6 +57,11 @@ table {
   border-spacing: 0;
 }
 
+@media (min-width: 425px) {
+  body {
+    background-image: url("/assets/gif.gif");
+  }
+}
 header {
   background: #403D39;
   display: flex;
@@ -77,6 +82,11 @@ header div img {
   height: 1.5rem;
 }
 
+@media (min-width: 425px) {
+  header {
+    display: none;
+  }
+}
 .apresentacao {
   padding: 1rem 1rem 1.5rem;
   align-items: center;
@@ -115,6 +125,11 @@ header div img {
   height: 161px;
 }
 
+@media (min-width: 425px) {
+  .apresentacao {
+    display: none;
+  }
+}
 .about {
   display: flex;
   padding: 0 1rem;
@@ -155,6 +170,11 @@ header div img {
   background-color: #FFFCF2;
 }
 
+@media (min-width: 425px) {
+  .about {
+    display: none;
+  }
+}
 .especialidadesValores .especialidadesValores__container #valores h3, .especialidadesValores .especialidadesValores__container #especialidades h3 {
   font-family: "Inter", sans-serif;
   font-size: 0.875rem;
@@ -203,6 +223,11 @@ header div img {
   margin-top: 0.3rem;
 }
 
+@media (min-width: 425px) {
+  .especialidadesValores {
+    display: none;
+  }
+}
 .advogados {
   padding: 0rem 1rem 1rem;
   text-align: center;
@@ -258,6 +283,11 @@ header div img {
   border: solid 1px #EB5E28;
 }
 
+@media (min-width: 425px) {
+  .advogados {
+    display: none;
+  }
+}
 .feedbacks {
   text-align: center;
   padding: 1rem;
@@ -287,6 +317,11 @@ header div img {
   height: 8rem;
 }
 
+@media (min-width: 425px) {
+  .feedbacks {
+    display: none;
+  }
+}
 .formulario {
   padding: 1rem;
   text-align: center;
@@ -354,6 +389,11 @@ header div img {
   font-weight: 400;
 }
 
+@media (min-width: 425px) {
+  .formulario {
+    display: none;
+  }
+}
 .final {
   padding: 2rem;
   display: flex;
@@ -395,6 +435,11 @@ header div img {
   max-width: 78.42px;
 }
 
+@media (min-width: 425px) {
+  .final {
+    display: none;
+  }
+}
 .footer {
   background: #EB5E28;
   display: flex;
@@ -425,4 +470,10 @@ header div img {
 .footer .footer-icons img {
   width: 0.9rem;
   height: 0.9rem;
+}
+
+@media (min-width: 425px) {
+  .footer {
+    display: none;
+  }
 }/*# sourceMappingURL=styles.css.map */

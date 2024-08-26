@@ -30,4 +30,12 @@
     img {
         @include mixins.img-size(165px, 161px);
     }
+
+    
+}
+
+@media(min-width: 425px) {
+    .apresentacao {
+        display: none;
+    }
 }

@@ -30,3 +30,9 @@
         }
     }
 }
+
+@media(min-width: 425px) {
+    .feedbacks {
+        display: none;
+    }
+}

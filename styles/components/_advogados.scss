@@ -50,3 +50,9 @@
         }
     }
 }
+
+@media(min-width: 425px) {
+    .advogados {
+        display: none;
+    }
+}
