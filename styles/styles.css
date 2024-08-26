@@ -352,4 +352,77 @@ header div img {
   padding: 0.25rem 7.6rem;
   border-radius: 4.4px;
   font-weight: 400;
+}
+
+.final {
+  padding: 2rem;
+  display: flex;
+}
+.final .final__texto {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.final .final__texto #texto-cima #final-titulo {
+  font-family: "Inter", sans-serif;
+  font-size: 0.87rem;
+  color: #FFFCF2;
+}
+.final .final__texto #texto-cima strong {
+  color: #EB5E28;
+  font-weight: 600;
+}
+.final .final__texto #texto-cima #final-subtitulo {
+  font-family: "Inter", sans-serif;
+  font-size: 0.37rem;
+  color: #FFFCF2;
+  margin-top: 0.3rem;
+}
+.final .final__texto #texto-baixo {
+  display: flex;
+  gap: 0.2rem;
+}
+.final .final__texto #texto-baixo #final-callback, .final .final__texto #texto-baixo #final-numero {
+  font-family: "Inter", sans-serif;
+  font-size: 0.5rem;
+  color: #FFFCF2;
+}
+.final .final__texto #texto-baixo #zapzap {
+  width: 8px;
+  height: 8px;
+}
+.final #juiz {
+  max-width: 78.42px;
+}
+
+.footer {
+  background: #EB5E28;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+.footer #footer-logo {
+  width: 103px;
+  height: 34.44px;
+}
+.footer .footer-textos {
+  text-align: center;
+}
+.footer .footer-textos #endereco, .footer .footer-textos #direitos {
+  font-family: "Inter", sans-serif;
+  font-size: 0.4rem;
+  color: #FFFCF2;
+  max-width: 35vw;
+}
+.footer .footer-textos #direitos {
+  padding-top: 0.3rem;
+}
+.footer .footer-icons {
+  display: flex;
+  gap: 0.4rem;
+}
+.footer .footer-icons img {
+  width: 0.9rem;
+  height: 0.9rem;
 }/*# sourceMappingURL=styles.css.map */

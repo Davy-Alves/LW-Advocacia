@@ -1,0 +1,37 @@
+@use '../abstract/variaveis';
+@use '../abstract/mixins';
+
+.footer {
+    background: variaveis.$cor-secudaria;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    
+    #footer-logo {
+        @include mixins.img-size(103px, 34.44px);
+    }
+
+    .footer-textos {
+        text-align: center;
+
+        #endereco {
+            @include mixins.ff-fs-cl(variaveis.$ft-principal, 0.4rem, variaveis.$cor-principal);
+            max-width: 35vw;
+        }
+
+        #direitos {
+            @extend #endereco;
+            padding-top: 0.3rem;
+        }
+    }
+
+    .footer-icons {
+        display: flex;
+        gap: 0.4rem;
+
+        img {
+            @include mixins.img-size(0.9rem, 0.9rem);
+        }
+    }
+}

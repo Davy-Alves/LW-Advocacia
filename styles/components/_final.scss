@@ -1,0 +1,49 @@
+@use '../abstract/variaveis';
+@use '../abstract/mixins';
+
+.final {
+    padding: 2rem;
+    display: flex;
+
+    .final__texto {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        #texto-cima {
+            #final-titulo {
+                @include mixins.ff-fs-cl(variaveis.$ft-principal, 0.87rem, variaveis.$cor-principal);
+            }
+
+            strong {
+                color: variaveis.$cor-secudaria;
+                font-weight: 600;
+            }
+
+            #final-subtitulo {
+                @include mixins.ff-fs-cl(variaveis.$ft-principal, 0.37rem, variaveis.$cor-principal);
+                margin-top: 0.3rem;
+            }
+        }
+
+        #texto-baixo {
+            display: flex;
+            gap: 0.2rem;
+            #final-callback {
+                @include mixins.ff-fs-cl(variaveis.$ft-principal, 0.5rem, variaveis.$cor-principal);
+            }
+
+            #zapzap {
+                @include mixins.img-size(8px, 8px);
+            }
+
+            #final-numero {
+                @extend #final-callback;
+            }
+        }
+    }
+
+    #juiz {
+        max-width: 78.42px;
+    }
+}
