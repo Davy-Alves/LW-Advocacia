@@ -30,6 +30,12 @@
     <li><strong>📝 Seção Formulários:</strong> Adição de uma seção com campos para preenchimento e um botão de enviar, permitindo aos usuários entrar em contato diretamente pela página.</li>
 </ul>
 
+<h3>Versão 5</h3>
+<ul>
+    <li><strong>🏁 Seção Final:</strong> Adição da seção final, completando a estrutura da landing page.</li>
+    <li><strong>⬇️ Footer:</strong> Inclusão de um footer, garantindo uma navegação mais completa e uma finalização adequada da página.</li>
+</ul>
+
 <h2>Instalação</h2>
 <ol>
     <li>Clone o repositório:
